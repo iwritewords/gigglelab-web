@@ -5,19 +5,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/x-icon" href="/img/favicon-blue.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="/css/w3.css">
     <style>
-      .w3-row-padding.align-middle {
+      @font-face {
+        font-family: 'Coming Soon';
+        src: url(/ttf/Coming_Soon/ComingSoon-Regular.ttf);
+      }
+      @font-face {
+        font-family: 'Comic Neue';
+        src: url(/ttf/Comic_Neue/ComicNeue-Regular.ttf);
+      }
+      @font-face {
+        font-family: Quicksand;
+        src: url(/ttf/Quicksand/static/Quicksand-Regular.ttf);
+      }
+      h1,h2,h3 {
+        font-family: 'Coming Soon', cursive;
+      }
+      h4 {
+        font-family: 'Comic Neue', cursive;
+      }
+      body {
+        font-family: Quicksand, sans-serif; font-size: medium;
+      }
+      .w3-row-padding.vertical-align-center {
         display: flex;
-        flex-wrap:wrap;
-        align-items:center;
-        justify-content:center;
+        flex-wrap: wrap;
+        align-items: center;
       }
     </style>
-    <script src="https://kit.fontawesome.com/76dae69c98.js" crossorigin="anonymous"></script>
   </head>
-  <body class="w3-blue">
+  <body>
+    <!-- Navbar -->
+    <div class="w3-top">
+      <div class="w3-bar w3-white w3-card">
+        <a href="/" class="w3-bar-item w3-button w3-hover-white"><img src="/img/gigglelab-logo.jpg" alt="gigglelab"></a>
+      </div>
+    </div>
 
-  
+    <div class="w3-container w3-light-grey" style="padding:128px 16px;">
+      <div class="w3-content">
+
+      </div>
+    </div>
+
   </body>
 </html>
